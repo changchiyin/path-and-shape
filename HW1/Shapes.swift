@@ -9,7 +9,6 @@
 import SwiftUI
 
 struct lower_body_outline:Shape{
-    private let OFFSET=190;
     func path(in rect: CGRect) -> Path {
         Path { path in
             path.move(to: CGPoint(x: 131, y: 483))
@@ -34,7 +33,6 @@ struct lower_body_outline:Shape{
 }
 
 struct upper_body_outline:Shape{
-    private let OFFSET=190;
     func path(in rect: CGRect) -> Path {
         Path { path in
             path.move(to: CGPoint(x: 158, y: 211))
@@ -56,7 +54,6 @@ struct upper_body_outline:Shape{
 }
 
 struct magisk_outline:Shape{
-    private let OFFSET=190;
     func path(in rect: CGRect) -> Path {
         Path { path in
             path.move(to: CGPoint(x: 151, y: 211))
@@ -73,7 +70,6 @@ struct magisk_outline:Shape{
 }
 
 struct magisk_band_outline:Shape{
-    private let OFFSET=190;
     func path(in rect: CGRect) -> Path {
         Path { path in
             path.move(to: CGPoint(x: 264, y: 303))
@@ -86,7 +82,6 @@ struct magisk_band_outline:Shape{
 }
 
 struct belt_head_outline:Shape{
-    private let OFFSET=190;
     func path(in rect: CGRect) -> Path {
         Path { path in
             path.move(to: CGPoint(x: 151, y: 539))
@@ -103,7 +98,6 @@ struct belt_head_outline:Shape{
 }
 
 struct belt_band_outline:Shape{
-    private let OFFSET=190;
     func path(in rect: CGRect) -> Path {
         Path { path in
             path.move(to: CGPoint(x: 197, y: 540))
